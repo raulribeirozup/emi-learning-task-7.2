@@ -56,15 +56,39 @@
 		58137951282EC2A20079F650 /* LearningTask-7.2 */ = {
 			isa = PBXGroup;
 			children = (
+				58137967282ED91A0079F650 /* Supportive Files */,
+				5813795B282EC2A40079F650 /* Assets.xcassets */,
+				58137966282ED9150079F650 /* View */,
+				58137968282ED9320079F650 /* Scenes */,
+			);
+			path = "LearningTask-7.2";
+			sourceTree = "<group>";
+		};
+		58137966282ED9150079F650 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58137958282EC2A20079F650 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58137967282ED91A0079F650 /* Supportive Files */ = {
+			isa = PBXGroup;
+			children = (
 				58137952282EC2A20079F650 /* AppDelegate.swift */,
 				58137954282EC2A20079F650 /* SceneDelegate.swift */,
-				58137956282EC2A20079F650 /* ViewController.swift */,
-				58137958282EC2A20079F650 /* Main.storyboard */,
-				5813795B282EC2A40079F650 /* Assets.xcassets */,
 				5813795D282EC2A40079F650 /* LaunchScreen.storyboard */,
 				58137960282EC2A40079F650 /* Info.plist */,
 			);
-			path = "LearningTask-7.2";
+			name = "Supportive Files";
+			sourceTree = "<group>";
+		};
+		58137968282ED9320079F650 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				58137956282EC2A20079F650 /* ViewController.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
