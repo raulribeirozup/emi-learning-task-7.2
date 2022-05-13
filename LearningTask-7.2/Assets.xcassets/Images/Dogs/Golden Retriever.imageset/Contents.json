@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Golden Retriever.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

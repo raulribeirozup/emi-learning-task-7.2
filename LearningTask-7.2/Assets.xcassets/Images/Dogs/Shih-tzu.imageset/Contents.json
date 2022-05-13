@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Shih-tzu.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

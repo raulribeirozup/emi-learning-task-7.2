@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Bichon Frisé.jpeg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
