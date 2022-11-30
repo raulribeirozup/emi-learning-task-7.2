@@ -9,25 +9,31 @@
 /* Begin PBXBuildFile section */
 		58137953282EC2A20079F650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58137952282EC2A20079F650 /* AppDelegate.swift */; };
 		58137955282EC2A20079F650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58137954282EC2A20079F650 /* SceneDelegate.swift */; };
-		58137957282EC2A20079F650 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58137956282EC2A20079F650 /* ViewController.swift */; };
+		58137957282EC2A20079F650 /* ListaDeRacasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58137956282EC2A20079F650 /* ListaDeRacasViewController.swift */; };
 		5813795A282EC2A20079F650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58137958282EC2A20079F650 /* Main.storyboard */; };
 		5813795C282EC2A40079F650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5813795B282EC2A40079F650 /* Assets.xcassets */; };
 		5813795F282EC2A40079F650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5813795D282EC2A40079F650 /* LaunchScreen.storyboard */; };
 		5813796A282EDBE00079F650 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58137969282EDBE00079F650 /* Theme.swift */; };
 		58137976282EF1620079F650 /* DogsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58137975282EF1620079F650 /* DogsAPI.swift */; };
+		B71C23C32936E326001E9D0B /* Raça.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C23C22936E326001E9D0B /* Raça.swift */; };
+		B71C23C52936E9A5001E9D0B /* RaçaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C23C42936E9A5001E9D0B /* RaçaViewCell.swift */; };
+		B7CBC9292936FDBE005AED0D /* UIImageView + MaskCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CBC9282936FDBE005AED0D /* UIImageView + MaskCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5813794F282EC2A20079F650 /* LearningTask-7.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-7.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58137952282EC2A20079F650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58137954282EC2A20079F650 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58137956282EC2A20079F650 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58137956282EC2A20079F650 /* ListaDeRacasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeRacasViewController.swift; sourceTree = "<group>"; };
 		58137959282EC2A20079F650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5813795B282EC2A40079F650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5813795E282EC2A40079F650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58137960282EC2A40079F650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58137969282EDBE00079F650 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		58137975282EF1620079F650 /* DogsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsAPI.swift; sourceTree = "<group>"; };
+		B71C23C22936E326001E9D0B /* Raça.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Raça.swift"; sourceTree = "<group>"; };
+		B71C23C42936E9A5001E9D0B /* RaçaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RaçaViewCell.swift"; sourceTree = "<group>"; };
+		B7CBC9282936FDBE005AED0D /* UIImageView + MaskCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + MaskCircle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,11 @@
 		58137951282EC2A20079F650 /* LearningTask-7.2 */ = {
 			isa = PBXGroup;
 			children = (
+				B7CBC9272936FDA3005AED0D /* Commons */,
 				58137967282ED91A0079F650 /* Supportive Files */,
 				5813795B282EC2A40079F650 /* Assets.xcassets */,
 				58137974282EF14F0079F650 /* API */,
+				B71C23C12936E314001E9D0B /* Model */,
 				58137966282ED9150079F650 /* View */,
 				58137968282ED9320079F650 /* Scenes */,
 			);
@@ -100,7 +108,8 @@
 		5813796B282EEE1A0079F650 /* Raças */ = {
 			isa = PBXGroup;
 			children = (
-				58137956282EC2A20079F650 /* ViewController.swift */,
+				B71C23C62936E9AB001E9D0B /* Views */,
+				58137956282EC2A20079F650 /* ListaDeRacasViewController.swift */,
 			);
 			name = "Raças";
 			path = "Raças";
@@ -112,6 +121,30 @@
 				58137975282EF1620079F650 /* DogsAPI.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		B71C23C12936E314001E9D0B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B71C23C22936E326001E9D0B /* Raça.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B71C23C62936E9AB001E9D0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B71C23C42936E9A5001E9D0B /* RaçaViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7CBC9272936FDA3005AED0D /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				B7CBC9282936FDBE005AED0D /* UIImageView + MaskCircle.swift */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,10 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58137957282EC2A20079F650 /* ViewController.swift in Sources */,
+				58137957282EC2A20079F650 /* ListaDeRacasViewController.swift in Sources */,
 				58137976282EF1620079F650 /* DogsAPI.swift in Sources */,
 				5813796A282EDBE00079F650 /* Theme.swift in Sources */,
 				58137953282EC2A20079F650 /* AppDelegate.swift in Sources */,
+				B71C23C32936E326001E9D0B /* Raça.swift in Sources */,
+				B71C23C52936E9A5001E9D0B /* RaçaViewCell.swift in Sources */,
+				B7CBC9292936FDBE005AED0D /* UIImageView + MaskCircle.swift in Sources */,
 				58137955282EC2A20079F650 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
